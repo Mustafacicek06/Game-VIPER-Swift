@@ -12,6 +12,7 @@ protocol BaseView: AnyObject {
     var presenter: BasePresenter? { get set }
     func showLoading()
     func hideLoading()
+    func reloadScreen<T: Codable>(data: T)
     func showError(error: String)
     func dismiss(animated: Bool, completion: @escaping (() -> Void))
     func present(_ viewController: UIViewController, animated: Bool)

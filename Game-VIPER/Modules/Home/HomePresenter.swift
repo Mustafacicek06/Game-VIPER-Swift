@@ -7,12 +7,30 @@
 
 import Foundation
 
+protocol HomeDelegate: AnyObject {
+    
+}
+
 final class HomePresenter: BasePresenter {
-    var dependencies: PresenterDependencies?
+    func isLoading(_ loading: Bool) {
+        loading ? dependencies?.view.showLoading() : dependencies?.view.hideLoading()
+    }
+    
+    var dependencies: PresenterDependencies? {
+        didSet {
+            dependencies?.interactor.fetchFromApi()
+        }
+    }
     
     func viewDidLoad() {
         guard let dependencies
             else { return }
+    }
+    
+    func dataDownloaded<T: Codable>(data: T) where T : Decodable, T : Encodable {
+        guard let dependencies else { return }
+        
+        dependencies.view.reloadScreen(data: data)
     }
     
     func navigateToDetail() {

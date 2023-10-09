@@ -10,5 +10,7 @@ import Foundation
 class FavoriteInteractor: BaseInteractor {
     var presenter: BasePresenter?
     
-    
+    func fetchFromApi() {
+        
+    }
 }

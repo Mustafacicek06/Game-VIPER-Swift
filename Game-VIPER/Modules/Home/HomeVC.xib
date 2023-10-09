@@ -23,23 +23,13 @@
                     <rect key="frame" x="16" y="75" width="361" height="727"/>
                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                 </tableView>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cj3-r9-rZf">
-                    <rect key="frame" x="159" y="408.66666666666669" width="75" height="35"/>
-                    <state key="normal" title="Button"/>
-                    <buttonConfiguration key="configuration" style="filled" title="Button"/>
-                    <connections>
-                        <action selector="back:" destination="-1" eventType="touchUpInside" id="5lA-Ou-QEb"/>
-                    </connections>
-                </button>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
             <constraints>
                 <constraint firstItem="9wm-Fd-lzt" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="Hvl-Az-oCo"/>
                 <constraint firstItem="9wm-Fd-lzt" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="16" id="MEe-3P-MQM"/>
-                <constraint firstItem="cj3-r9-rZf" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="OO7-yb-l3s"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="9wm-Fd-lzt" secondAttribute="bottom" constant="16" id="VNR-vy-KKQ"/>
-                <constraint firstItem="cj3-r9-rZf" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="v2T-1h-HC8"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="9wm-Fd-lzt" secondAttribute="trailing" constant="16" id="xmg-3U-W1a"/>
             </constraints>
             <point key="canvasLocation" x="-149" y="20"/>

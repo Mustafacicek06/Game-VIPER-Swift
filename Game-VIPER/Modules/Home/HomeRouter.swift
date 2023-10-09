@@ -19,11 +19,12 @@ final class HomeRouter: BaseRouter {
         var presenter: BasePresenter = HomePresenter()
         var interactor: BaseInteractor = HomeInteractor()
         
-        vc.presenter = presenter
-        
+        interactor.presenter = presenter
+
         presenter.dependencies = (interactor, router, vc)
         
-        interactor.presenter = presenter
+        vc.presenter = presenter
+        
         
         router.view = vc as? EntryView
         

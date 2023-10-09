@@ -32,14 +32,21 @@
 		59516C862AD2D71600D5F060 /* FavoritePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59516C852AD2D71600D5F060 /* FavoritePresenter.swift */; };
 		59516C882AD2D72500D5F060 /* FavoriteEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59516C872AD2D72500D5F060 /* FavoriteEntity.swift */; };
 		59516C8A2AD2D73200D5F060 /* FavoriteRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59516C892AD2D73200D5F060 /* FavoriteRouter.swift */; };
-		59516C8E2AD3368700D5F060 /* GameTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59516C8C2AD3368700D5F060 /* GameTableViewCell.swift */; };
-		59516C8F2AD3368700D5F060 /* GameTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 59516C8D2AD3368700D5F060 /* GameTableViewCell.xib */; };
 		598F9D4B2AD484CA00378061 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 598F9D4A2AD484CA00378061 /* Alamofire */; };
 		598F9D4F2AD4855300378061 /* BaseNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598F9D4E2AD4855300378061 /* BaseNetwork.swift */; };
 		598F9D512AD4859E00378061 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598F9D502AD4859E00378061 /* NetworkService.swift */; };
 		598F9D522AD4859E00378061 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598F9D502AD4859E00378061 /* NetworkService.swift */; };
 		598F9D552AD4864D00378061 /* BaseConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598F9D542AD4864D00378061 /* BaseConfig.swift */; };
 		598F9D572AD4873000378061 /* NetworkService+StringPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598F9D562AD4873000378061 /* NetworkService+StringPath.swift */; };
+		598F9D5C2AD48B9600378061 /* NetworkConfigConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598F9D5B2AD48B9600378061 /* NetworkConfigConstants.swift */; };
+		598F9D5E2AD48CA300378061 /* NetworkPaths.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598F9D5D2AD48CA300378061 /* NetworkPaths.swift */; };
+		598F9D622AD494D700378061 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598F9D612AD494D700378061 /* NetworkManager.swift */; };
+		598F9D652AD4964F00378061 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598F9D642AD4964F00378061 /* Game.swift */; };
+		598F9D682AD49AF200378061 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 598F9D672AD49AF200378061 /* Kingfisher */; };
+		598F9D6C2AD4A56500378061 /* GameTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598F9D6A2AD4A56500378061 /* GameTableCell.swift */; };
+		598F9D6D2AD4A56500378061 /* GameTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 598F9D6B2AD4A56500378061 /* GameTableCell.xib */; };
+		598F9D6F2AD4A74300378061 /* UIViewController+loading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598F9D6E2AD4A74300378061 /* UIViewController+loading.swift */; };
+		598F9D722AD4A7D000378061 /* BaseScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598F9D712AD4A7D000378061 /* BaseScreenViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,12 +96,18 @@
 		59516C852AD2D71600D5F060 /* FavoritePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritePresenter.swift; sourceTree = "<group>"; };
 		59516C872AD2D72500D5F060 /* FavoriteEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteEntity.swift; sourceTree = "<group>"; };
 		59516C892AD2D73200D5F060 /* FavoriteRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteRouter.swift; sourceTree = "<group>"; };
-		59516C8C2AD3368700D5F060 /* GameTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameTableViewCell.swift; sourceTree = "<group>"; };
-		59516C8D2AD3368700D5F060 /* GameTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GameTableViewCell.xib; sourceTree = "<group>"; };
 		598F9D4E2AD4855300378061 /* BaseNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNetwork.swift; sourceTree = "<group>"; };
 		598F9D502AD4859E00378061 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 		598F9D542AD4864D00378061 /* BaseConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseConfig.swift; sourceTree = "<group>"; };
 		598F9D562AD4873000378061 /* NetworkService+StringPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NetworkService+StringPath.swift"; sourceTree = "<group>"; };
+		598F9D5B2AD48B9600378061 /* NetworkConfigConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkConfigConstants.swift; sourceTree = "<group>"; };
+		598F9D5D2AD48CA300378061 /* NetworkPaths.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkPaths.swift; sourceTree = "<group>"; };
+		598F9D612AD494D700378061 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		598F9D642AD4964F00378061 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		598F9D6A2AD4A56500378061 /* GameTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameTableCell.swift; sourceTree = "<group>"; };
+		598F9D6B2AD4A56500378061 /* GameTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GameTableCell.xib; sourceTree = "<group>"; };
+		598F9D6E2AD4A74300378061 /* UIViewController+loading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+loading.swift"; sourceTree = "<group>"; };
+		598F9D712AD4A7D000378061 /* BaseScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseScreenViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +115,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				598F9D682AD49AF200378061 /* Kingfisher in Frameworks */,
 				598F9D4B2AD484CA00378061 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,6 +161,7 @@
 			isa = PBXGroup;
 			children = (
 				59516C632AD19EB600D5F060 /* Core */,
+				598F9D592AD48B7E00378061 /* Product */,
 				59516C642AD19EBB00D5F060 /* Modules */,
 				59516C402AD19E5C00D5F060 /* Info.plist */,
 				59516C382AD19E5A00D5F060 /* Game_VIPER.xcdatamodeld */,
@@ -185,6 +200,7 @@
 		59516C632AD19EB600D5F060 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				598F9D702AD4A7B300378061 /* Utility */,
 				598F9D582AD487D000378061 /* Constants */,
 				598F9D4C2AD484F400378061 /* Network */,
 				59516C622AD19EA100D5F060 /* Application */,
@@ -232,7 +248,7 @@
 		59516C672AD19FA000D5F060 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				59516C8B2AD3366700D5F060 /* Cell */,
+				598F9D692AD4A54800378061 /* Cell */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -247,15 +263,6 @@
 				59516C7D2AD1A0ED00D5F060 /* BaseRouter.swift */,
 			);
 			path = BaseViper;
-			sourceTree = "<group>";
-		};
-		59516C8B2AD3366700D5F060 /* Cell */ = {
-			isa = PBXGroup;
-			children = (
-				59516C8C2AD3368700D5F060 /* GameTableViewCell.swift */,
-				59516C8D2AD3368700D5F060 /* GameTableViewCell.xib */,
-			);
-			path = Cell;
 			sourceTree = "<group>";
 		};
 		598F9D4C2AD484F400378061 /* Network */ = {
@@ -281,6 +288,7 @@
 			isa = PBXGroup;
 			children = (
 				598F9D562AD4873000378061 /* NetworkService+StringPath.swift */,
+				598F9D6E2AD4A74300378061 /* UIViewController+loading.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -290,6 +298,58 @@
 			children = (
 			);
 			path = Constants;
+			sourceTree = "<group>";
+		};
+		598F9D592AD48B7E00378061 /* Product */ = {
+			isa = PBXGroup;
+			children = (
+				598F9D632AD4962A00378061 /* Model */,
+				598F9D5F2AD494AD00378061 /* Network */,
+				598F9D5A2AD48B8400378061 /* Constant */,
+			);
+			path = Product;
+			sourceTree = "<group>";
+		};
+		598F9D5A2AD48B8400378061 /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				598F9D5B2AD48B9600378061 /* NetworkConfigConstants.swift */,
+				598F9D5D2AD48CA300378061 /* NetworkPaths.swift */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		598F9D5F2AD494AD00378061 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				598F9D612AD494D700378061 /* NetworkManager.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		598F9D632AD4962A00378061 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				598F9D642AD4964F00378061 /* Game.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		598F9D692AD4A54800378061 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				598F9D6A2AD4A56500378061 /* GameTableCell.swift */,
+				598F9D6B2AD4A56500378061 /* GameTableCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		598F9D702AD4A7B300378061 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				598F9D712AD4A7D000378061 /* BaseScreenViewController.swift */,
+			);
+			path = Utility;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -310,6 +370,7 @@
 			name = "Game-VIPER";
 			packageProductDependencies = (
 				598F9D4A2AD484CA00378061 /* Alamofire */,
+				598F9D672AD49AF200378061 /* Kingfisher */,
 			);
 			productName = "Game-VIPER";
 			productReference = 59516C2C2AD19E5A00D5F060 /* Game-VIPER.app */;
@@ -385,6 +446,7 @@
 			mainGroup = 59516C232AD19E5A00D5F060;
 			packageReferences = (
 				598F9D492AD484CA00378061 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				598F9D662AD49AF200378061 /* XCRemoteSwiftPackageReference "Kingfisher" */,
 			);
 			productRefGroup = 59516C2D2AD19E5A00D5F060 /* Products */;
 			projectDirPath = "";
@@ -403,8 +465,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				59516C822AD2D6F800D5F060 /* FavoriteVC.xib in Resources */,
-				59516C8F2AD3368700D5F060 /* GameTableViewCell.xib in Resources */,
 				59516C3F2AD19E5C00D5F060 /* LaunchScreen.storyboard in Resources */,
+				598F9D6D2AD4A56500378061 /* GameTableCell.xib in Resources */,
 				59516C6B2AD1A00200D5F060 /* HomeVC.xib in Resources */,
 				59516C3C2AD19E5C00D5F060 /* Assets.xcassets in Resources */,
 			);
@@ -433,18 +495,24 @@
 			files = (
 				59516C302AD19E5A00D5F060 /* AppDelegate.swift in Sources */,
 				59516C782AD1A0D000D5F060 /* BaseInteractor.swift in Sources */,
+				598F9D722AD4A7D000378061 /* BaseScreenViewController.swift in Sources */,
 				59516C6A2AD1A00200D5F060 /* HomeVC.swift in Sources */,
+				598F9D6F2AD4A74300378061 /* UIViewController+loading.swift in Sources */,
 				598F9D572AD4873000378061 /* NetworkService+StringPath.swift in Sources */,
+				598F9D5C2AD48B9600378061 /* NetworkConfigConstants.swift in Sources */,
+				598F9D6C2AD4A56500378061 /* GameTableCell.swift in Sources */,
 				59516C882AD2D72500D5F060 /* FavoriteEntity.swift in Sources */,
 				59516C712AD1A04200D5F060 /* HomeEntity.swift in Sources */,
 				59516C3A2AD19E5A00D5F060 /* Game_VIPER.xcdatamodeld in Sources */,
 				59516C6F2AD1A02E00D5F060 /* HomePresenter.swift in Sources */,
 				59516C732AD1A04C00D5F060 /* HomeRouter.swift in Sources */,
+				598F9D652AD4964F00378061 /* Game.swift in Sources */,
 				598F9D552AD4864D00378061 /* BaseConfig.swift in Sources */,
 				59516C7E2AD1A0ED00D5F060 /* BaseRouter.swift in Sources */,
+				598F9D5E2AD48CA300378061 /* NetworkPaths.swift in Sources */,
 				598F9D4F2AD4855300378061 /* BaseNetwork.swift in Sources */,
 				59516C7C2AD1A0E300D5F060 /* BaseEntity.swift in Sources */,
-				59516C8E2AD3368700D5F060 /* GameTableViewCell.swift in Sources */,
+				598F9D622AD494D700378061 /* NetworkManager.swift in Sources */,
 				59516C762AD1A0C500D5F060 /* BaseView.swift in Sources */,
 				598F9D512AD4859E00378061 /* NetworkService.swift in Sources */,
 				59516C6D2AD1A01F00D5F060 /* HomeInteractor.swift in Sources */,
@@ -796,6 +864,14 @@
 				minimumVersion = 5.0.0;
 			};
 		};
+		598F9D662AD49AF200378061 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -803,6 +879,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 598F9D492AD484CA00378061 /* XCRemoteSwiftPackageReference "Alamofire" */;
 			productName = Alamofire;
+		};
+		598F9D672AD49AF200378061 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 598F9D662AD49AF200378061 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
 		};
 /* End XCSwiftPackageProductDependency section */
 

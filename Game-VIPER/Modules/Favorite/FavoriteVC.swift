@@ -24,6 +24,10 @@ class FavoriteVC: UIViewController {
 
 // MARK: - BaseView Functions.
 extension FavoriteVC: BaseView {
+    func reloadScreen<T>(data: T) where T : Decodable, T : Encodable {
+        
+    }
+    
     func showLoading() {
         
     }

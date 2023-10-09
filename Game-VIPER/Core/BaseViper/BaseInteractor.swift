@@ -10,5 +10,5 @@ import Foundation
 
 protocol BaseInteractor {
     var presenter: BasePresenter? { get set }
-    
+    func fetchFromApi()
 }
