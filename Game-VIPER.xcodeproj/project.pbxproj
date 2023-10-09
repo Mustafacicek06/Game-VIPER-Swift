@@ -9,14 +9,37 @@
 /* Begin PBXBuildFile section */
 		59516C302AD19E5A00D5F060 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59516C2F2AD19E5A00D5F060 /* AppDelegate.swift */; };
 		59516C322AD19E5A00D5F060 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59516C312AD19E5A00D5F060 /* SceneDelegate.swift */; };
-		59516C342AD19E5A00D5F060 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59516C332AD19E5A00D5F060 /* ViewController.swift */; };
-		59516C372AD19E5A00D5F060 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59516C352AD19E5A00D5F060 /* Main.storyboard */; };
 		59516C3A2AD19E5A00D5F060 /* Game_VIPER.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 59516C382AD19E5A00D5F060 /* Game_VIPER.xcdatamodeld */; };
 		59516C3C2AD19E5C00D5F060 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59516C3B2AD19E5C00D5F060 /* Assets.xcassets */; };
 		59516C3F2AD19E5C00D5F060 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59516C3D2AD19E5C00D5F060 /* LaunchScreen.storyboard */; };
 		59516C4A2AD19E5C00D5F060 /* Game_VIPERTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59516C492AD19E5C00D5F060 /* Game_VIPERTests.swift */; };
 		59516C542AD19E5C00D5F060 /* Game_VIPERUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59516C532AD19E5C00D5F060 /* Game_VIPERUITests.swift */; };
 		59516C562AD19E5C00D5F060 /* Game_VIPERUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59516C552AD19E5C00D5F060 /* Game_VIPERUITestsLaunchTests.swift */; };
+		59516C6A2AD1A00200D5F060 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59516C682AD1A00200D5F060 /* HomeVC.swift */; };
+		59516C6B2AD1A00200D5F060 /* HomeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 59516C692AD1A00200D5F060 /* HomeVC.xib */; };
+		59516C6D2AD1A01F00D5F060 /* HomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59516C6C2AD1A01F00D5F060 /* HomeInteractor.swift */; };
+		59516C6F2AD1A02E00D5F060 /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59516C6E2AD1A02E00D5F060 /* HomePresenter.swift */; };
+		59516C712AD1A04200D5F060 /* HomeEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59516C702AD1A04200D5F060 /* HomeEntity.swift */; };
+		59516C732AD1A04C00D5F060 /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59516C722AD1A04C00D5F060 /* HomeRouter.swift */; };
+		59516C762AD1A0C500D5F060 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59516C752AD1A0C500D5F060 /* BaseView.swift */; };
+		59516C782AD1A0D000D5F060 /* BaseInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59516C772AD1A0D000D5F060 /* BaseInteractor.swift */; };
+		59516C7A2AD1A0DA00D5F060 /* BasePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59516C792AD1A0DA00D5F060 /* BasePresenter.swift */; };
+		59516C7C2AD1A0E300D5F060 /* BaseEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59516C7B2AD1A0E300D5F060 /* BaseEntity.swift */; };
+		59516C7E2AD1A0ED00D5F060 /* BaseRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59516C7D2AD1A0ED00D5F060 /* BaseRouter.swift */; };
+		59516C812AD2D6F800D5F060 /* FavoriteVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59516C7F2AD2D6F800D5F060 /* FavoriteVC.swift */; };
+		59516C822AD2D6F800D5F060 /* FavoriteVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 59516C802AD2D6F800D5F060 /* FavoriteVC.xib */; };
+		59516C842AD2D70800D5F060 /* FavoriteInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59516C832AD2D70800D5F060 /* FavoriteInteractor.swift */; };
+		59516C862AD2D71600D5F060 /* FavoritePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59516C852AD2D71600D5F060 /* FavoritePresenter.swift */; };
+		59516C882AD2D72500D5F060 /* FavoriteEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59516C872AD2D72500D5F060 /* FavoriteEntity.swift */; };
+		59516C8A2AD2D73200D5F060 /* FavoriteRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59516C892AD2D73200D5F060 /* FavoriteRouter.swift */; };
+		59516C8E2AD3368700D5F060 /* GameTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59516C8C2AD3368700D5F060 /* GameTableViewCell.swift */; };
+		59516C8F2AD3368700D5F060 /* GameTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 59516C8D2AD3368700D5F060 /* GameTableViewCell.xib */; };
+		598F9D4B2AD484CA00378061 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 598F9D4A2AD484CA00378061 /* Alamofire */; };
+		598F9D4F2AD4855300378061 /* BaseNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598F9D4E2AD4855300378061 /* BaseNetwork.swift */; };
+		598F9D512AD4859E00378061 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598F9D502AD4859E00378061 /* NetworkService.swift */; };
+		598F9D522AD4859E00378061 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598F9D502AD4859E00378061 /* NetworkService.swift */; };
+		598F9D552AD4864D00378061 /* BaseConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598F9D542AD4864D00378061 /* BaseConfig.swift */; };
+		598F9D572AD4873000378061 /* NetworkService+StringPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598F9D562AD4873000378061 /* NetworkService+StringPath.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,8 +63,6 @@
 		59516C2C2AD19E5A00D5F060 /* Game-VIPER.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Game-VIPER.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		59516C2F2AD19E5A00D5F060 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		59516C312AD19E5A00D5F060 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		59516C332AD19E5A00D5F060 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		59516C362AD19E5A00D5F060 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		59516C392AD19E5A00D5F060 /* Game_VIPER.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Game_VIPER.xcdatamodel; sourceTree = "<group>"; };
 		59516C3B2AD19E5C00D5F060 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		59516C3E2AD19E5C00D5F060 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +72,29 @@
 		59516C4F2AD19E5C00D5F060 /* Game-VIPERUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Game-VIPERUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		59516C532AD19E5C00D5F060 /* Game_VIPERUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game_VIPERUITests.swift; sourceTree = "<group>"; };
 		59516C552AD19E5C00D5F060 /* Game_VIPERUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game_VIPERUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		59516C682AD1A00200D5F060 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		59516C692AD1A00200D5F060 /* HomeVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeVC.xib; sourceTree = "<group>"; };
+		59516C6C2AD1A01F00D5F060 /* HomeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInteractor.swift; sourceTree = "<group>"; };
+		59516C6E2AD1A02E00D5F060 /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
+		59516C702AD1A04200D5F060 /* HomeEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeEntity.swift; sourceTree = "<group>"; };
+		59516C722AD1A04C00D5F060 /* HomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRouter.swift; sourceTree = "<group>"; };
+		59516C752AD1A0C500D5F060 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		59516C772AD1A0D000D5F060 /* BaseInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseInteractor.swift; sourceTree = "<group>"; };
+		59516C792AD1A0DA00D5F060 /* BasePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasePresenter.swift; sourceTree = "<group>"; };
+		59516C7B2AD1A0E300D5F060 /* BaseEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseEntity.swift; sourceTree = "<group>"; };
+		59516C7D2AD1A0ED00D5F060 /* BaseRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseRouter.swift; sourceTree = "<group>"; };
+		59516C7F2AD2D6F800D5F060 /* FavoriteVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteVC.swift; sourceTree = "<group>"; };
+		59516C802AD2D6F800D5F060 /* FavoriteVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FavoriteVC.xib; sourceTree = "<group>"; };
+		59516C832AD2D70800D5F060 /* FavoriteInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteInteractor.swift; sourceTree = "<group>"; };
+		59516C852AD2D71600D5F060 /* FavoritePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritePresenter.swift; sourceTree = "<group>"; };
+		59516C872AD2D72500D5F060 /* FavoriteEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteEntity.swift; sourceTree = "<group>"; };
+		59516C892AD2D73200D5F060 /* FavoriteRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteRouter.swift; sourceTree = "<group>"; };
+		59516C8C2AD3368700D5F060 /* GameTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameTableViewCell.swift; sourceTree = "<group>"; };
+		59516C8D2AD3368700D5F060 /* GameTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GameTableViewCell.xib; sourceTree = "<group>"; };
+		598F9D4E2AD4855300378061 /* BaseNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNetwork.swift; sourceTree = "<group>"; };
+		598F9D502AD4859E00378061 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		598F9D542AD4864D00378061 /* BaseConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseConfig.swift; sourceTree = "<group>"; };
+		598F9D562AD4873000378061 /* NetworkService+StringPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NetworkService+StringPath.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				598F9D4B2AD484CA00378061 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,12 +146,8 @@
 		59516C2E2AD19E5A00D5F060 /* Game-VIPER */ = {
 			isa = PBXGroup;
 			children = (
-				59516C2F2AD19E5A00D5F060 /* AppDelegate.swift */,
-				59516C312AD19E5A00D5F060 /* SceneDelegate.swift */,
-				59516C332AD19E5A00D5F060 /* ViewController.swift */,
-				59516C352AD19E5A00D5F060 /* Main.storyboard */,
-				59516C3B2AD19E5C00D5F060 /* Assets.xcassets */,
-				59516C3D2AD19E5C00D5F060 /* LaunchScreen.storyboard */,
+				59516C632AD19EB600D5F060 /* Core */,
+				59516C642AD19EBB00D5F060 /* Modules */,
 				59516C402AD19E5C00D5F060 /* Info.plist */,
 				59516C382AD19E5A00D5F060 /* Game_VIPER.xcdatamodeld */,
 			);
@@ -130,6 +171,127 @@
 			path = "Game-VIPERUITests";
 			sourceTree = "<group>";
 		};
+		59516C622AD19EA100D5F060 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				59516C2F2AD19E5A00D5F060 /* AppDelegate.swift */,
+				59516C312AD19E5A00D5F060 /* SceneDelegate.swift */,
+				59516C3D2AD19E5C00D5F060 /* LaunchScreen.storyboard */,
+				59516C3B2AD19E5C00D5F060 /* Assets.xcassets */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		59516C632AD19EB600D5F060 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				598F9D582AD487D000378061 /* Constants */,
+				598F9D4C2AD484F400378061 /* Network */,
+				59516C622AD19EA100D5F060 /* Application */,
+				59516C742AD1A08C00D5F060 /* BaseViper */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		59516C642AD19EBB00D5F060 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				59516C662AD19F5B00D5F060 /* Favorite */,
+				59516C652AD19F5600D5F060 /* Home */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		59516C652AD19F5600D5F060 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				59516C672AD19FA000D5F060 /* View */,
+				59516C682AD1A00200D5F060 /* HomeVC.swift */,
+				59516C692AD1A00200D5F060 /* HomeVC.xib */,
+				59516C6C2AD1A01F00D5F060 /* HomeInteractor.swift */,
+				59516C6E2AD1A02E00D5F060 /* HomePresenter.swift */,
+				59516C702AD1A04200D5F060 /* HomeEntity.swift */,
+				59516C722AD1A04C00D5F060 /* HomeRouter.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		59516C662AD19F5B00D5F060 /* Favorite */ = {
+			isa = PBXGroup;
+			children = (
+				59516C7F2AD2D6F800D5F060 /* FavoriteVC.swift */,
+				59516C802AD2D6F800D5F060 /* FavoriteVC.xib */,
+				59516C832AD2D70800D5F060 /* FavoriteInteractor.swift */,
+				59516C852AD2D71600D5F060 /* FavoritePresenter.swift */,
+				59516C872AD2D72500D5F060 /* FavoriteEntity.swift */,
+				59516C892AD2D73200D5F060 /* FavoriteRouter.swift */,
+			);
+			path = Favorite;
+			sourceTree = "<group>";
+		};
+		59516C672AD19FA000D5F060 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				59516C8B2AD3366700D5F060 /* Cell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		59516C742AD1A08C00D5F060 /* BaseViper */ = {
+			isa = PBXGroup;
+			children = (
+				59516C752AD1A0C500D5F060 /* BaseView.swift */,
+				59516C772AD1A0D000D5F060 /* BaseInteractor.swift */,
+				59516C792AD1A0DA00D5F060 /* BasePresenter.swift */,
+				59516C7B2AD1A0E300D5F060 /* BaseEntity.swift */,
+				59516C7D2AD1A0ED00D5F060 /* BaseRouter.swift */,
+			);
+			path = BaseViper;
+			sourceTree = "<group>";
+		};
+		59516C8B2AD3366700D5F060 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				59516C8C2AD3368700D5F060 /* GameTableViewCell.swift */,
+				59516C8D2AD3368700D5F060 /* GameTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		598F9D4C2AD484F400378061 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				598F9D4D2AD4853100378061 /* Base */,
+				598F9D532AD4863A00378061 /* Extension */,
+				598F9D502AD4859E00378061 /* NetworkService.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		598F9D4D2AD4853100378061 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				598F9D4E2AD4855300378061 /* BaseNetwork.swift */,
+				598F9D542AD4864D00378061 /* BaseConfig.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		598F9D532AD4863A00378061 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				598F9D562AD4873000378061 /* NetworkService+StringPath.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		598F9D582AD487D000378061 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -146,6 +308,9 @@
 			dependencies = (
 			);
 			name = "Game-VIPER";
+			packageProductDependencies = (
+				598F9D4A2AD484CA00378061 /* Alamofire */,
+			);
 			productName = "Game-VIPER";
 			productReference = 59516C2C2AD19E5A00D5F060 /* Game-VIPER.app */;
 			productType = "com.apple.product-type.application";
@@ -218,6 +383,9 @@
 				Base,
 			);
 			mainGroup = 59516C232AD19E5A00D5F060;
+			packageReferences = (
+				598F9D492AD484CA00378061 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = 59516C2D2AD19E5A00D5F060 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -234,9 +402,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59516C822AD2D6F800D5F060 /* FavoriteVC.xib in Resources */,
+				59516C8F2AD3368700D5F060 /* GameTableViewCell.xib in Resources */,
 				59516C3F2AD19E5C00D5F060 /* LaunchScreen.storyboard in Resources */,
+				59516C6B2AD1A00200D5F060 /* HomeVC.xib in Resources */,
 				59516C3C2AD19E5C00D5F060 /* Assets.xcassets in Resources */,
-				59516C372AD19E5A00D5F060 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,10 +431,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				59516C342AD19E5A00D5F060 /* ViewController.swift in Sources */,
 				59516C302AD19E5A00D5F060 /* AppDelegate.swift in Sources */,
+				59516C782AD1A0D000D5F060 /* BaseInteractor.swift in Sources */,
+				59516C6A2AD1A00200D5F060 /* HomeVC.swift in Sources */,
+				598F9D572AD4873000378061 /* NetworkService+StringPath.swift in Sources */,
+				59516C882AD2D72500D5F060 /* FavoriteEntity.swift in Sources */,
+				59516C712AD1A04200D5F060 /* HomeEntity.swift in Sources */,
 				59516C3A2AD19E5A00D5F060 /* Game_VIPER.xcdatamodeld in Sources */,
+				59516C6F2AD1A02E00D5F060 /* HomePresenter.swift in Sources */,
+				59516C732AD1A04C00D5F060 /* HomeRouter.swift in Sources */,
+				598F9D552AD4864D00378061 /* BaseConfig.swift in Sources */,
+				59516C7E2AD1A0ED00D5F060 /* BaseRouter.swift in Sources */,
+				598F9D4F2AD4855300378061 /* BaseNetwork.swift in Sources */,
+				59516C7C2AD1A0E300D5F060 /* BaseEntity.swift in Sources */,
+				59516C8E2AD3368700D5F060 /* GameTableViewCell.swift in Sources */,
+				59516C762AD1A0C500D5F060 /* BaseView.swift in Sources */,
+				598F9D512AD4859E00378061 /* NetworkService.swift in Sources */,
+				59516C6D2AD1A01F00D5F060 /* HomeInteractor.swift in Sources */,
+				59516C842AD2D70800D5F060 /* FavoriteInteractor.swift in Sources */,
 				59516C322AD19E5A00D5F060 /* SceneDelegate.swift in Sources */,
+				59516C8A2AD2D73200D5F060 /* FavoriteRouter.swift in Sources */,
+				59516C812AD2D6F800D5F060 /* FavoriteVC.swift in Sources */,
+				59516C7A2AD1A0DA00D5F060 /* BasePresenter.swift in Sources */,
+				59516C862AD2D71600D5F060 /* FavoritePresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +461,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				598F9D522AD4859E00378061 /* NetworkService.swift in Sources */,
 				59516C4A2AD19E5C00D5F060 /* Game_VIPERTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -301,14 +491,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		59516C352AD19E5A00D5F060 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				59516C362AD19E5A00D5F060 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		59516C3D2AD19E5C00D5F060 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -446,7 +628,6 @@
 				INFOPLIST_FILE = "Game-VIPER/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -474,7 +655,6 @@
 				INFOPLIST_FILE = "Game-VIPER/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -606,6 +786,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		598F9D492AD484CA00378061 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		598F9D4A2AD484CA00378061 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 598F9D492AD484CA00378061 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		59516C382AD19E5A00D5F060 /* Game_VIPER.xcdatamodeld */ = {
